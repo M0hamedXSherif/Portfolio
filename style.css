@@ -1,3 +1,15 @@
+/* Nav links font (Share Tech) */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Cairo:wght@200..1000&family=Playwrite+GB+J+Guides:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Tiny5&display=swap');
+
+/* hire me font (Bitcount single) */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Cairo:wght@200..1000&family=Lily+Script+One&family=Playwrite+GB+J+Guides:ital@0;1&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Tiny5&display=swap');
+
+/* name font () */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Cairo:wght@200..1000&family=Lily+Script+One&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+GB+J+Guides:ital@0;1&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&family=Tiny5&display=swap');
+
+/* description font (Rubik Gemstones) */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Cairo:wght@200..1000&family=Lily+Script+One&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+GB+J+Guides:ital@0;1&family=Playwrite+NZ+Basic:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Gemstones&family=Share+Tech&family=Tiny5&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -27,6 +39,7 @@ canvas {
 .hero{
     display: flex;
     justify-content: space-around;
+    padding: 5px 0 5px;
 }
 
 /* nav area */
@@ -49,6 +62,7 @@ nav{
     display: flex;
     list-style: none;
     gap: 30px;
+    font-family: "Share Tech";
     background: rgba(255,255,255,0.05);
     backdrop-filter: blur(15px);
     border: 1px rgb(66, 66, 66) solid;
@@ -78,6 +92,7 @@ nav{
 
 .logo{
     font-size: 2.9rem;
+    font-family: "Tiny5", monospace, sans-serif;
     cursor: pointer;
 }
 
@@ -99,8 +114,10 @@ svg{
 
 .nav-actions .hire-me{
     background-color: #5DD3C8;
+    color: black;
     font-size: 1.4rem;
     font-weight: 600;
+    font-family: "Lily Script One", cursive;
     letter-spacing: 0.9px;
     border-radius: 40px;
     padding: 15px 20px;
@@ -111,11 +128,10 @@ svg{
 /* HERO SECTION */
 .hero-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 2000px;
     max-width: 90%;
-    padding: 50px ;
-    margin: 20px ;
+    padding: 90px 0 90px;
     background: rgba(255,255,255,0.05);
     backdrop-filter: blur(1px);
     display: flex;
@@ -126,16 +142,19 @@ svg{
     margin: 50px 0 15px 0;
     font-size: 1.2rem;
     font-size: #999999;
+    font-family: "Bitcount Single", cursive, sans-serif;
 }
 
 .hero-left h1{
     margin-bottom: 50px;
     font-size: 2.5rem;
+    font-family: "Playwrite DE SAS", cursive, sans-serif;
 }
 
 .hero-left h2{
-    font-size: 3.6rem;
+    font-size: 4.6rem;
     font-weight: 900;
+    font-family: "Rubik Gemstones", cursive, sans-serif;
     color: #5DD3C8;
 }
 
@@ -149,7 +168,6 @@ svg{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    margin-right: 250px;
 }
 
 .hero-right img{
@@ -159,7 +177,6 @@ svg{
     object-fit: cover;
     border: 5px #107a6f solid;
     margin-bottom: 70px;
-
     outline: 2px solid rgba(46, 188, 186, 0.379);
     outline-offset: 15px;
     box-shadow: 0 0 30px rgba(93, 211, 200, 0.3), 
@@ -183,7 +200,15 @@ svg{
     font-size: 1.2rem;
     font-weight: 500;
     border-radius: 15px;
+    cursor: pointer;
+    transition: ease 3.s;
+}
+
+.hero-right-btns button:hover{
+    transform: translateY(-5px);
 }
 
 .work-btn{ background: #5DD3C8; color: #101010; border: none; }
 .contact-btn{ background: #0D1117; color: #fff; border: none; }
+.work-btn:hover{ box-shadow: 5px 8px 20px rgba(26, 163, 171, 0.4); }
+.contact-btn:hover{ box-shadow: 5px 8px 20px rgba(131, 131, 131, 0.4); }
