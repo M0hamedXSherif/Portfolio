@@ -10,29 +10,35 @@
     
     <canvas id="starCanvas"></canvas>
 
-        <nav>
-            <div class="logo">MS<span class="dot">.</span></div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
-            <div class="nav-actions">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256"><path d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"></path></svg>
-                <button class="hire-me">Hire me</button>
-            </div>
-        </nav>
+        
 
     <main>
         <section class="hero">
+            <nav>
+                <div class="logo">MS<span class="green-point">.</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <svg id="list" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                <div class="nav-actions">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256"><path d="M120,40V16a8,8,0,0,1,16,0V40a8,8,0,0,1-16,0Zm72,88a64,64,0,1,1-64-64A64.07,64.07,0,0,1,192,128Zm-16,0a48,48,0,1,0-48,48A48.05,48.05,0,0,0,176,128ZM58.34,69.66A8,8,0,0,0,69.66,58.34l-16-16A8,8,0,0,0,42.34,53.66Zm0,116.68-16,16a8,8,0,0,0,11.32,11.32l16-16a8,8,0,0,0-11.32-11.32ZM192,72a8,8,0,0,0,5.66-2.34l16-16a8,8,0,0,0-11.32-11.32l-16,16A8,8,0,0,0,192,72Zm5.66,114.34a8,8,0,0,0-11.32,11.32l16,16a8,8,0,0,0,11.32-11.32ZM48,128a8,8,0,0,0-8-8H16a8,8,0,0,0,0,16H40A8,8,0,0,0,48,128Zm80,80a8,8,0,0,0-8,8v24a8,8,0,0,0,16,0V216A8,8,0,0,0,128,208Zm112-88H216a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"></path></svg>
+                    <button class="hire-me">Hire me</button>
+                </div>
+            </nav>
+
             <div class="hero-container">
                 <div class="hero-left">
-                    <p>Hi, I'm</p>
+                    <p class="hi">Hi, I'm</p>
                     <h1>Mohamed Sherif</h1>
                     <h2>Building digital <br> experiences that <br> matter.</h2>
-                    <div class="terminal">
+                    <p class="hero-left-bio" >Hi, I'm Mohamed. A passionate Frontend Developer crafting <br> pixel-perfect,
+                    accessible, and performant web applications <br> with modern technologies.</p>
+
+                    <div class="terminal-container">
+                        <div class="terminal">
                         <div class="terminal-bar">
                             <div class="r-y-g-points">
                                 <div class="red"></div>
@@ -50,16 +56,195 @@
                             </div>
                         </div>
                     </div>
+
+                    </div>
+                    
+                    <div class="hero-left-btns">
+                        <button class="work-btn"><a href="">View work</a></button>
+                        <button class="contact-btn"><a href="">Contact me</a></button>
+                    </div>
                 </div>
                 <div class="hero-right">
+                    <div class="float-badge badge-teal">
+                        <span>⚡</span> Frontend Dev
+                    </div>
                     <img src="images/me.png" alt="">
-                    <div class="hero-right-btns">
-                        <button class="work-btn">View work</button>
-                        <button class="contact-btn">Contact me</button>
+                    <div class="float-badge badge-green">
+                        <span class="dot"></span> Open for work
                     </div>
                 </div>
             </div>
         </section>
+
+
+
+        <!-- About Section -->
+        <section class="about">
+
+            <div class="about-left">
+
+                <div class="about-intro">
+                    <p><span>⚡</span>About Me</p>
+                    <h2>The person <br> behind <br> the <span>code.</span></h2>
+                </div>
+                <div class="about-bio">
+                    <span>👋</span>
+                    <h3>Hey, I'm Mohamed Sherif</h3>
+                    <p>Frontend developer based in Cairo with 2+ years of 
+                    experience building fast, accessible, and beautiful 
+                    web applications. I care deeply about the details — 
+                    performance, accessibility, and design that actually 
+                    makes sense.</p>
+                    <p>When I'm not writing code, I'm probably in Figma 
+                    designing something new or learning the next thing 
+                    that'll make me better at my craft.</p>
+                    <button class="cv-btn">
+                        Download CV
+                    </button>
+                </div>
+            </div>
+
+            <div class="about-middle">
+
+                <div class="skills-box">
+                    <p class="skill"><span>🛠️</span>Skills</p>
+                    <div class="tool-box">
+                        <div class="tool-name">
+                            <p>React</p>
+                            <p>90%</p>
+                        </div>
+                        <div class="progress-bar"></div>
+                    </div>
+                
+                    <div class="tool-box">
+                        <div class="tool-name">
+                            <p>AI Agents</p>
+                            <p>80%</p>
+                        </div>
+                        <div class="progress-bar"></div>
+                    </div>
+                    <div class="tool-box">
+                        <div class="tool-name">
+                            <p>TypeScript</p>
+                            <p>75%</p>
+                        </div>
+                        <div class="progress-bar"></div>
+                    </div>
+                    <div class="tool-box">
+                        <div class="tool-name">
+                            <p>Tailwind</p>
+                            <p>85%</p>
+                        </div>
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="journey-box">
+                    <p class="journey"><span>📍</span>Journey</p>
+                    <div class="experience">
+                        <div class="experience-point"></div>
+                        <div class="experience-content">
+                            <p class="exp-description">Frontend Dev</p>
+                            <p class="exp-date">2026 - now</p>
+                            <p class="location">Cairo</p>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <div class="experience-point"></div>
+                        <div class="experience-content">
+                            <p class="exp-description">Started programming</p>
+                            <p class="exp-date">2025 - a year ago</p>
+                            <p class="location">Cairo</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="about-right">
+
+                <div class="projects-box">
+                    <h3>12+</h3>
+                    <p>projects</p>
+                </div>
+
+                <div class="clients-box">
+                    <h3>8+</h3>
+                    <p>Clients</p> 
+                </div>
+    
+                <div class="tools-box">
+                    <p class="tools-title"><span>⛏️</span>Tools</p>
+                    <div class="tools-container">
+                        <div class="tool-item">React</div>
+                        <div class="tool-item">Next.js</div>
+                        <div class="tool-item">Figma</div>
+                        <div class="tool-item">Github</div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <div class="nice-facts-box">
+            <p> <span>Based in Cairo 🇪🇬 ·</span> Open to remote opportunities worldwide · Fluent in Arabic & English</p>
+            <p class="fact-box">☕ Coffee addict</p>
+            <p class="fact-box">🎵 Lo-fi while coding</p>
+            <p class="fact-box">🌙 Night ow!</p>
+        </div>
+
+        <!-- Projects Section -->
+        <section class="projects-section">
+            <h2>Featured Projects</h2>
+            <p>A collection of my best work</p>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="p-i-wrapper">
+                        <img src="images/note.jpg" alt="a note">
+                    </div>
+                    <div class="p-c-content">
+                        <h3>Task Manager</h3>
+                        <p>Productivity tool for organizing tasks <br> with drag-and-drop functionallity</p>
+                        <div class="tech-stack">
+                            <div class="stack-item">React</div>
+                            <div class="stack-item">React</div>
+                            <div class="stack-item">React</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="p-i-wrapper">
+                        <img src="images/dash-board.webp" alt="a dash-board">
+                    </div>
+                    <div class="p-c-content">
+                        <h3>E-commerce Dashboard</h3>
+                        <p>A comprehensive dashboard for managing online <br> store analytics, products and orders.</p>
+                        <div class="tech-stack">
+                            <div class="stack-item">React</div>
+                            <div class="stack-item">React</div>
+                            <div class="stack-item">React</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="p-i-wrapper">
+                        <img src="images/weather.jpg" alt="weather">
+                    </div>
+                    <div class="p-c-content">
+                        <h3>Weather App</h3>
+                        <p>Real time weather application with <br> location-based forecasts and interactive maps</p>
+                        <div class="tech-stack">
+                            <div class="stack-item">React</div>
+                            <div class="stack-item">React</div>
+                            <div class="stack-item">React</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
 <script src="script.js"></script>
 </body>
